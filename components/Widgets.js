@@ -3,9 +3,9 @@ import { DotsHorizontalIcon, VideoCameraIcon } from '@heroicons/react/solid';
 import Contact from './Contact';
 
 const contacts = [
-  { src: '/jeff.jpg', name: 'Jeff Jacobson' },
+  { src: '/jeff.jpg', name: 'Lil Jeffy' },
   { src: '/donny.jpg', name: 'Ear Ring Kid' },
-  { src: '/juri.jpg', name: 'Asian Girl' },
+  { src: '/juri.jpg', name: 'Garbage WD Main' },
   { src: '/will.jpg', name: 'Small Hands' },
 ];
 
