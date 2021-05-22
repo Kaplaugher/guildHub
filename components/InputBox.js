@@ -101,7 +101,7 @@ function InputBox() {
       <div className="flex justify-evenly p-3 botder-t">
         <div className="inputIcon">
           <VideoCameraIcon className="h-7 text-red-500" />
-          <p className="text-xs sm:text-sm xl:text-base">Live Video</p>
+          <p className="text-xs sm:text-sm xl:text-base">Stream</p>
         </div>
         <div
           onClick={() => filePickerRef.current.click()}
@@ -118,7 +118,7 @@ function InputBox() {
         </div>
         <div className="inputIcon">
           <EmojiHappyIcon className="h-7 text-yellow-300" />
-          <p className="text-xs sm:text-sm xl:text-base">Activity</p>
+          <p className="text-xs sm:text-sm xl:text-base">Emoji</p>
         </div>
       </div>
     </div>

@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-800;
+  }
+}
+
 @layer components {
   .icon {
-    @apply hidden xl:inline-flex p-2 h-10 w-10 bg-gray-200 rounded-full cursor-pointer hover:bg-gray-100;
+    @apply hidden xl:inline-flex p-2 h-10 w-10 rounded-full   cursor-pointer hover:bg-theme-accent-blue text-theme-accent-green;
   }
 
   .inputIcon {
-    @apply flex items-center space-x-1 hover:bg-gray-100 flex-grow justify-center p-2 rounded-xl cursor-pointer;
+    @apply flex items-center space-x-1 hover:bg-theme-accent-green flex-grow justify-center p-2 rounded-xl cursor-pointer;
   }
 }
